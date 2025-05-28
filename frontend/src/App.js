@@ -961,6 +961,10 @@ function App() {
   const [locationFilter, setLocationFilter] = useState("all");
   const [dateSort, setDateSort] = useState("asc");
 
+   const openTelegramBot = () => {
+    window.open("https://t.me/event_guide_bot", "_blank");
+  };
+
   // Function to parse different date formats
   const parseEventDate = (dateString) => {
     if (!dateString) return new Date();
@@ -1052,7 +1056,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/events")
+    fetch("https://louderworldassignment.onrender.com/api/events")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch events");
         return res.json();
@@ -1107,7 +1111,7 @@ function App() {
     if (!email) return alert("Please enter your email.");
     setSending(true);
     try {
-      const res = await fetch("http://localhost:5000/api/optin", {
+      const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -1319,6 +1323,10 @@ function App() {
           </div>
         </div>
       )}
+
+      <button onClick={openTelegramBot} className="telegram-button">
+        Chat with Event Bot on Telegram
+      </button>
     </div>
   );
 }
