@@ -78,12 +78,12 @@ Search & filter by date and location
 
 🤝 Built with LangChain-style logic (custom flow)
 
-⚙️ Tech Stack
-Frontend:     React.js, HTML5, CSS3
-Backend:      Node.js, Express.js, MongoDB
-Scraper:      Cheerio, Axios
-Bot:          Python, Telegram API, Google Gemini AI
-Automation:   node-cron
+## ⚙️ Tech Stack
+> Frontend:     React.js, HTML5, CSS3
+> Backend:      Node.js, Express.js, MongoDB
+> Scraper:      Cheerio, Axios
+> Bot:          Python, Telegram API, Google Gemini AI
+> Automation:   node-cron
 
 🔄 How to Run Locally
 # 🧪 Clone the repo
