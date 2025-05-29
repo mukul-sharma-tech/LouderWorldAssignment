@@ -32,7 +32,7 @@
 │   ├── public/
 │   ├── src/
 │   │   ├── App.js         # React UI with search, filter, email modal
-│   │   └── App.js
+│   │   └── App.css
 │   │   └── index.js
 │   │   └── index.css
 │   ├── package.json       # Frontend dependencies
