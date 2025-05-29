@@ -87,7 +87,7 @@ This project consists of two main components:
 | **Web Scraping** | Cheerio, Axios |
 | **AI Bot** | Python, Telegram Bot API, Google Gemini AI |
 | **Automation** | node-cron |
-| **Deployment** | Vercel (Frontend), Railway/Heroku (Backend) |
+| **Deployment** | Vercel (Frontend), Render (Backend) |
 
 ## 🚀 Local Development Setup
 
