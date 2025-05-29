@@ -49,7 +49,7 @@
 > 💾 GitHub Repo: https://github.com/mukul-sharma-tech/LouderWorldAssignment
 
 # Features Overview
-##✅ Assignment 1: Web Event Scraper & Frontend
+## ✅ Assignment 1: Web Event Scraper & Frontend
 🔎 Scrapes Sydney events from:
 https://whatson.cityofsydney.nsw.gov.au
 
@@ -67,7 +67,7 @@ Search & filter by date and location
 
 📩 Emails saved in DB for future notifications
 
-##🤖 Assignment 2: AI Event Bot 
+## 🤖 Assignment 2: AI Event Bot 
 🧠 Telegram bot using Google Gemini AI and LangChain
 
 📤 User sends: "I like free music concerts on weekends"
@@ -113,13 +113,13 @@ pip install -r requirements.txt
 python main.py  # Make sure your bot token is configured
 ```
 
-🛠️ Challenges Faced
+## 🛠️ Challenges Faced
 > 🗓️ Parsing inconsistent dates like "Today", "Tomorrow"
 > 🔄 Handling dynamic content from JS-heavy source
 > 📱 Making the site minimal but responsive
 > 🤖 Ensuring AI gives accurate recommendations
 
-🌱 Potential Improvements
+## 🌱 Potential Improvements
 > Add support for more Sydney event websites
 > Push email notifications for new events
 > Real-time updates using WebSocket
