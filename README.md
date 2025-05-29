@@ -13,37 +13,43 @@
 📦 LouderWorldAssignment
 ├── backend/
 │   ├── models/
+│       ├── Event.js
 │   ├── cron-job.js        # Auto-scraping daily @ 8AM using node-cron
 │   ├── scrape.js          # Scrapes events from City of Sydney website
 │   ├── server.js          # Express.js backend API server
 │   ├── package.json       # Backend dependencies
 │   └── .gitignore
+│   └── .env
 │
 ├── event_bot/
 │   ├── main.py            # Telegram bot with Gemini AI integration
 │   ├── requirements.txt   # Python dependencies
 │   └── runtime.txt
+│   └── .gitignore
+│   └── .env
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── App.js         # React UI with search, filter, email modal
+│   │   └── App.js
 │   │   └── index.js
+│   │   └── index.css
 │   ├── package.json       # Frontend dependencies
 │   └── .gitignore
 │
-├── README.md              # ← You are here
+├── README.md              
 ```
 
 > 🚀 Live Links
 > 🌍 Website: https://louder-world-assignment-ruby.vercel.app/
 
-> 🤖 Telegram Bot: @event_guide_bot
+> 🤖 Telegram Bot: https://t.me/event_guide_bot
 
-> 💾 GitHub Repo: github.com/mukul-sharma-tech/LouderWorldAssignment
+> 💾 GitHub Repo: https://github.com/mukul-sharma-tech/LouderWorldAssignment
 
-📌 Features Overview
-✅ Assignment 1: Web Event Scraper & Frontend
+# Features Overview
+##✅ Assignment 1: Web Event Scraper & Frontend
 🔎 Scrapes Sydney events from:
 https://whatson.cityofsydney.nsw.gov.au
 
@@ -61,7 +67,7 @@ Search & filter by date and location
 
 📩 Emails saved in DB for future notifications
 
-🤖 Assignment 2: AI Event Bot 
+##🤖 Assignment 2: AI Event Bot 
 🧠 Telegram bot using Google Gemini AI and LangChain
 
 📤 User sends: "I like free music concerts on weekends"
@@ -73,9 +79,6 @@ Search & filter by date and location
 🤝 Built with LangChain-style logic (custom flow)
 
 ⚙️ Tech Stack
-bash
-Copy
-Edit
 Frontend:     React.js, HTML5, CSS3
 Backend:      Node.js, Express.js, MongoDB
 Scraper:      Cheerio, Axios
@@ -128,6 +131,5 @@ Cron Scheduler	✅ Done
 Telegram AI Bot	✅ Done
 Gemini AI Integration	✅ Done
 
-> ⏱️ Dev Time: ~40-60 hours
 > 🧑‍💻 Built with ❤️ by Mukul Sharma
 
