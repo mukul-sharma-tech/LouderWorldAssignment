@@ -87,49 +87,52 @@ Automation:   node-cron
 
 🔄 How to Run Locally
 # 🧪 Clone the repo
+```bash
 git clone https://github.com/mukul-sharma-tech/LouderWorldAssignment.git
 cd LouderWorldAssignment
+```
 
 # ⚙️ Backend Setup
+```bash
 cd backend
 npm install
 npm start   # Runs Express API @ localhost:5000
+```
 
 # 💻 Frontend Setup
-cd ../frontend
+```bash
+cd frontend
 npm install
 npm start   # Runs React UI @ localhost:3000
+```
 
 # 🤖 Telegram Bot Setup
-cd ../event_bot
+```bash
+cd event_bot
 pip install -r requirements.txt
 python main.py  # Make sure your bot token is configured
+```
+
 🛠️ Challenges Faced
-🗓️ Parsing inconsistent dates like "Today", "Tomorrow"
-
-🔄 Handling dynamic content from JS-heavy source
-
-📱 Making the site minimal but responsive
-
-🤖 Ensuring AI gives accurate recommendations
+> 🗓️ Parsing inconsistent dates like "Today", "Tomorrow"
+> 🔄 Handling dynamic content from JS-heavy source
+> 📱 Making the site minimal but responsive
+> 🤖 Ensuring AI gives accurate recommendations
 
 🌱 Potential Improvements
-Add support for more Sydney event websites
+> Add support for more Sydney event websites
+> Push email notifications for new events
+> Real-time updates using WebSocket
+> Add mobile app (React Native or Flutter)
 
-Push email notifications for new events
-
-Real-time updates using WebSocket
-
-Add mobile app (React Native or Flutter)
-
-✅ Assignment Status
-Component	Status
-Scraper + API	✅ Done
-React Frontend	✅ Done
-Email Collection	✅ Done
-Cron Scheduler	✅ Done
-Telegram AI Bot	✅ Done
-Gemini AI Integration	✅ Done
+## ✅ Assignment Status
+> Component	Status
+> Scraper + API	✅ Done
+> React Frontend	✅ Done
+> Email Collection	✅ Done
+> Cron Scheduler	✅ Done
+> Telegram AI Bot	✅ Done
+> Gemini AI Integration	✅ Done
 
 > 🧑‍💻 Built with ❤️ by Mukul Sharma
 
