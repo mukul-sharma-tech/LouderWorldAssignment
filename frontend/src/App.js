@@ -37,7 +37,7 @@
 //   const [sending, setSending] = useState(false);
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/events")
+//     fetch("https://louderworldassignment.onrender.com/api/events")
 //       .then((res) => {
 //         if (!res.ok) throw new Error("Failed to fetch events");
 //         return res.json();
@@ -63,7 +63,7 @@
 //     if (!email) return alert("Please enter your email.");
 //     setSending(true);
 //     try {
-//       const res = await fetch("http://localhost:5000/api/optin", {
+//       const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -186,7 +186,7 @@
 //   const [sending, setSending] = useState(false);
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/events")
+//     fetch("https://louderworldassignment.onrender.com/api/events")
 //       .then((res) => {
 //         if (!res.ok) throw new Error("Failed to fetch events");
 //         return res.json();
@@ -212,7 +212,7 @@
 //     if (!email) return alert("Please enter your email.");
 //     setSending(true);
 //     try {
-//       const res = await fetch("http://localhost:5000/api/optin", {
+//       const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -327,7 +327,7 @@
 //   const [dateSort, setDateSort] = useState("asc");
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/events")
+//     fetch("https://louderworldassignment.onrender.com/api/events")
 //       .then((res) => {
 //         if (!res.ok) throw new Error("Failed to fetch events");
 //         return res.json();
@@ -382,7 +382,7 @@
 //     if (!email) return alert("Please enter your email.");
 //     setSending(true);
 //     try {
-//       const res = await fetch("http://localhost:5000/api/optin", {
+//       const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -671,7 +671,7 @@
 //   };
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/events")
+//     fetch("https://louderworldassignment.onrender.com/api/events")
 //       .then((res) => {
 //         if (!res.ok) throw new Error("Failed to fetch events");
 //         return res.json();
@@ -726,7 +726,7 @@
 //     if (!email) return alert("Please enter your email.");
 //     setSending(true);
 //     try {
-//       const res = await fetch("http://localhost:5000/api/optin", {
+//       const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -1056,7 +1056,7 @@
 //   };
 
 //   useEffect(() => {
-//     fetch("http://localhost:5000/api/events")
+//     fetch("https://louderworldassignment.onrender.com/api/events")
 //       .then((res) => {
 //         if (!res.ok) throw new Error("Failed to fetch events");
 //         return res.json();
@@ -1111,7 +1111,7 @@
 //     if (!email) return alert("Please enter your email.");
 //     setSending(true);
 //     try {
-//       const res = await fetch("http://localhost:5000/api/optin", {
+//       const res = await fetch("https://louderworldassignment.onrender.com/api/optin", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ email, eventId: selectedEvent._id }),
@@ -1440,7 +1440,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/events")
+    fetch("https://louderworldassignment.onrender.com/api/events")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch events");
         return res.json();
@@ -1499,7 +1499,7 @@ function App() {
     setSending(true);
     setRegistrationError("");
     try {
-      const res = await fetch("http://localhost:5000/api/send-otp", {
+      const res = await fetch("https://louderworldassignment.onrender.com/api/send-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -1528,7 +1528,7 @@ function App() {
     setVerifying(true);
     setRegistrationError("");
     try {
-      const res = await fetch("http://localhost:5000/api/verify-otp", {
+      const res = await fetch("https://louderworldassignment.onrender.com/api/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -1929,14 +1929,14 @@ function App() {
   // Handle image loading errors with fallback
   const handleImageError = (e) => {
     e.target.style.display = 'none';
-    const fallback = e.target.nextElementSibling;
+    const fallback = e.target.nextElemenptSibling;
     if (fallback) {
       fallback.style.display = 'flex';
     }
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/events")
+    fetch("https://louderworldassignment.onrender.com/api/events")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch events");
         return res.json();
@@ -1995,7 +1995,7 @@ function App() {
     setSending(true);
     setRegistrationError("");
     try {
-      const res = await fetch("http://localhost:5000/api/send-otp", {
+      const res = await fetch("https://louderworldassignment.onrender.com/api/send-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -2024,7 +2024,7 @@ function App() {
     setVerifying(true);
     setRegistrationError("");
     try {
-      const res = await fetch("http://localhost:5000/api/verify-otp", {
+      const res = await fetch("https://louderworldassignment.onrender.com/api/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
